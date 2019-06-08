@@ -68,11 +68,11 @@ ROOT:
 │   ├── **tg.class.php** - _Telegram API class_  
 │   └── **db.class.php** - _Database class_  
 ├── **query_type**  
-│   ├── **inline_button.php** - _Message type inline button_
-│   ├── **inline_message.php**> - _Message type inline query_
-│   └── **simple_message.php** - _Message type simple message_
-├── **lang.php** - _language file_.
-├── **bot.php** - _Main file, requested by WebHook_
-├── **var.php** - _Main variables of bot_
-├── **lang.php ** - _language file_
-└── <b>debug.php</b> - _extra debug file_
+│   ├── **inline_button.php** - _Message type inline button_  
+│   ├── **inline_message.php**> - _Message type inline query_  
+│   └── **simple_message.php** - _Message type simple message_  
+├── **lang.php** - _language file_  
+├── **bot.php** - _Main file, requested by WebHook_  
+├── **var.php** - _Main variables of bot_  
+├── **lang.php ** - _language file_  
+└── <b>debug.php</b> - _extra debug file_  
