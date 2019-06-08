@@ -62,8 +62,7 @@ $tg->METHOD_NAME($PARAM_1, $PARAM_2, ..., $PARAM_N)
 
 ## Template structure
 
-ROOT:
-
+ROOT:  
 ├── **classes**  
 │   ├── **tg.class.php** - _Telegram API class_  
 │   └── **db.class.php** - _Database class_  
