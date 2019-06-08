@@ -1,4 +1,13 @@
 <?php
+/**
+ * Database Class
+ *
+ * @author     Naziks <mail4nazarko@gmail.com>
+ * @copyright  2019 - Naziks
+ * @version    1.1
+ * @link       https://github.com/naziks/TGbot-template
+ */
+
 
 class xDB{
 	private $d;

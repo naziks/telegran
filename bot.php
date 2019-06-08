@@ -1,4 +1,13 @@
  <?php
+ /**
+ * INDEX FILE
+ *
+ * @author     Naziks <mail4nazarko@gmail.com>
+ * @copyright  2019 - Naziks
+ * @version    1.1
+ * @link       https://github.com/naziks/TGbot-template
+ */
+
 header('Content-type:text/plain; charset=utf-8'); // SET WEBPAGE TYPE
 ini_set("log_errors", 1);                         // ENABLE ERROR LOG
 ini_set("error_log", "./error.log");              // CHOOSE ERROR LOG FILE

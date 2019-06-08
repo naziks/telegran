@@ -1,17 +1,26 @@
  <?php 
-define("TOKEN", "BOT_TOKEN");              // DEFINE BOT TOKEN 
-define('ADMIN_ID', 'YOUR_ID');            // SET ADMINISTRATOR ID (Optional)
+ /**
+ * Variables
+ *
+ * @author     Naziks <mail4nazarko@gmail.com>
+ * @copyright  2019 - Naziks
+ * @version    1.1
+ * @link       https://github.com/naziks/TGbot-template
+ */
+
+define("TOKEN", "BOT_TOKEN");    // (REQUIRED) BOT_TOKEN
+define('ADMIN_ID', 'YOUR_ID');   // (OPTIONAL) YOUR ID
 
 $_FEATURES = Array(
-	"debug"      => false,
-	"db_enabled" => false
+	"debug"      => false,       // (OPTIONAL) YOUR_ID OR FALSE
+	"db_enabled" => false        // (OPTIONAL) TRUE OR FALSE
 );
 
 $_DATABASE_CONFIG = Array(
-	"host" => "localhost",
-	"username" => "username",
-	"password" => "password",
-	"database_name" => "db_name"
+	"host" => "localhost",       // DATABASE HOST
+	"username" => "username",    // DATABASE USER
+	"password" => "password",    // DATABASE USER PASSWORD
+	"database_name" => "db_name" // DATABASE NAME
 );
 
 

@@ -1,4 +1,13 @@
 <?php
+/**
+ * Telegram Class
+ *
+ * @author     Naziks <mail4nazarko@gmail.com>
+ * @copyright  2019 - Naziks
+ * @version    1.1
+ * @link       https://github.com/naziks/TGbot-template
+ */
+
 class Telegram{
 	private $token;
 	private $data = array();
@@ -10,26 +19,6 @@ class Telegram{
 
 	public function getData(){
 		return json_decode(file_get_contents("php://input"), true);
-	}
-
-	public function isUserAdminInGroup($chat_id, $user_id){
-		$admins = $this->sendRequest("getChatAdministrators", [
-			"chat_id" => $chat_id
-		]);
-
-		foreach ($admins['result'] as $k => $v) {
-			if($v['user']['id'] == $user_id){
-				return true;
-			}
-		}
-		return false;
-	}
-
-	public function removeMessage($chat_id, $mesage_id){
-		return $this->sendRequest("deleteMessage", [
-			"chat_id" => $chat_id,
-			"message_id" => $mesage_id
-		]);
 	}
 
 	public function buildInlineButton(array $params){
