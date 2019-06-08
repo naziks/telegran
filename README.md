@@ -73,5 +73,5 @@ ROOT:
 ├── **lang.php** - _language file_  
 ├── **bot.php** - _Main file, requested by WebHook_  
 ├── **var.php** - _Main variables of bot_  
-├── **lang.php ** - _language file_  
+├── **lang.php** - _language file_  
 └── <b>debug.php</b> - _extra debug file_  
