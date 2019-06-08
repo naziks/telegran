@@ -1,4 +1,14 @@
-# PHP Telegram Bot Template
+# Telegran
+
+Modern Telegram bot template.
+Bots are special Telegram accounts designed to handle messages automatically. Users can interact with bots by sending them command messages in private or group chats. These accounts serve as an interface for code running somewhere on your server.
+
+## Table of Content
+1. [Pre-Requirements](#pre-requirements)
+2. [Quich Start](#quick-start)
+3. [Variables](#variables)
+4. [Telegram Class Methods](#telegram-class-methods)
+5. [Template structure](#template-structure)
 
 ## Pre-Requirements
 1. PHP Hosting
