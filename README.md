@@ -64,12 +64,10 @@ $tg->METHOD_NAME($PARAM_1, $PARAM_2, ..., $PARAM_N)
 
 ROOT:
 
-├── **classes**
-
-│   ├── **tg.class.php** - _Telegram API class_
-
-│   └── **db.class.php** - _Database class_
-├── **query_type**"."\n".
+├── **classes**  
+│   ├── **tg.class.php** - _Telegram API class_  
+│   └── **db.class.php** - _Database class_  
+├── **query_type**  
 │   ├── **inline_button.php** - _Message type inline button_
 │   ├── **inline_message.php**> - _Message type inline query_
 │   └── **simple_message.php** - _Message type simple message_
