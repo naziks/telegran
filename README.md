@@ -73,14 +73,16 @@ $tg->METHOD_NAME($PARAM_1, $PARAM_2, ..., $PARAM_N)
 ## Template structure
 
 ROOT:  
-├── **classes**  
-│   ├── **tg.class.php** - _Telegram API class_  
-│   └── **db.class.php** - _Database class_  
-├── **query_type**  
-│   ├── **inline_button.php** - _Message type inline button_  
-│   ├── **inline_message.php**> - _Message type inline query_  
-│   └── **simple_message.php** - _Message type simple message_  
-├── **lang.php** - _language file_  
-├── **bot.php** - _Main file, requested by WebHook_  
-├── **var.php** - _Main variables of bot_  
-└── **lang.php** - _language file_  
+```
+├── classes  
+│   ├── tg.class.php // Telegram API class
+│   └── db.class.php // Database class
+├── query_type 
+│   ├── inline_button.php  // Message type inline button
+│   ├── inline_message.php // Message type inline query  
+│   └── simple_message.php // Message type simple message  
+├── lang.php // language file
+├── bot.php  // Main file, requested by WebHook
+├── var.php  // Main variables of bot
+└── lang.php // language file
+```
