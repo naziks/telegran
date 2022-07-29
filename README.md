@@ -71,9 +71,9 @@ $tg->METHOD_NAME($PARAM_1, $PARAM_2, ..., $PARAM_N)
 | buildInlineQueryResult           | (_Array_)  of params                        | _String_ JSON                   |
 
 ## Template structure
-
-ROOT:  
+ 
 ```
+ROOT:
 ├── classes  
 │   ├── tg.class.php // Telegram API class
 │   └── db.class.php // Database class
